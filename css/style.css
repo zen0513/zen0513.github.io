@@ -1,0 +1,275 @@
+* {
+    font-family: 'Roboto', sans-serif
+}
+
+header {
+    position: relative;
+    height: 50px
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: #212121;
+    z-index: 2
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style-type: none
+}
+
+.menu .menu_link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300
+}
+
+.menu .menu_item {
+    border-right: 2px dotted black;
+    padding-right: 28px
+}
+
+.subheader {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    min-height: 87px;
+    background-color: rgba(0, 0, 0, 0.6)
+}
+
+.subheader .subheader_logo {
+    display: block;
+    max-width: 100%;
+    margin-top: 16px
+}
+
+.subheader .subheader_official {
+    margin-top: 6px;
+    opacity: 0.5;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 200
+}
+
+.subheader .subheader_call {
+    margin-top: 22px;
+    font-weight: 300;
+    font-size: 12px;
+    text-align: right;
+    color: #FFFFFF
+}
+
+.subheader .subheader_phone {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none
+}
+
+.subheader_btn {
+    margin: 22px 0 19px 0;
+    width: 172px;
+    height: 46px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21)
+}
+
+.promo {
+    min-height: 800px;
+    background: url(../img/uber_bg.png) center center/cover no-repeat
+}
+
+.promo .promo_header {
+    margin: 0;
+    margin-top: 152px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #FFFFFF
+}
+
+.promo .promo_subheader {
+    margin: 0;
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #FFFFFF
+}
+
+.promo .promo_decsr {
+    margin-top: 15px;
+    text-align: center;
+    line-height: 24px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF
+}
+
+.promo .promo_btn {
+    display: block;
+    margin: 116px auto 0;
+    width: 259px;
+    height: 63px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border: none;
+    font-size: 18px;
+    line-height: 63px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21)
+}
+
+.reasons {
+    padding: 20px 0 64px 0
+}
+
+.label {
+    margin: 0 auto;
+    width: 115px;
+    height: 27px;
+    background: #000000;
+    padding: 5px;
+    font-weight: 400;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center
+}
+
+.title {
+    margin-top: 33px;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222
+}
+
+.reasons .reasons_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 34px
+}
+
+.reasons .reasons_block .reasons_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 113px;
+    height: 113px;
+    border-radius: 100%;
+    background: #1EACC7;
+    margin-right: 25px
+}
+
+.reasons .reasons_block .reasons_descr {
+    width: 371px
+}
+
+.reasons .reasons_block .reasons_descr .reasons_subtitle {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #1EACC7
+}
+
+.reasons .reasons_block .reasons_descr .reasons_text {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px
+}
+
+
+.mobile {
+    min-height: 864px;
+    padding: 38px 0 80px 0;
+    background: url(../img/mob_uber/mobile_bg.png) center center/cover no-repeat
+}
+
+.mobile .row {
+    margin-top: 32px
+}
+
+.mobile_item {
+    position: relative;
+    width: 320px;
+    height: 280px;
+    margin: 0 auto;
+    margin-bottom: 19px;
+    padding-top: 92px
+}
+
+.mobile_item_1 {
+    background: url(../img/mob_uber/Карточка1.png) center center/cover no-repeat
+}
+
+.mobile_item_2 {
+    background: url(../img/mob_uber/Карточка2.png) center center/cover no-repeat
+}
+
+.mobile_item_3 {
+    background: url(../img/mob_uber/Карточка3.png) center center/cover no-repeat
+}
+
+.mobile_item_4 {
+    background: url(../img/mob_uber/Карточка4.png) center center/cover no-repeat
+}
+
+.mobile_item_5 {
+    background: url(../img/mob_uber/Карточка5.png) center center/cover no-repeat
+}
+
+.mobile_item_6 {
+    background: url(../img/mob_uber/Карточка6.png) center center/cover no-repeat
+}
+
+.mobile_item_subtitle {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF
+}
+
+.mobile_item_plus {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: absolute;
+    bottom: 35px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    margin: 0 auto;
+    width: 29px;
+    height: 29px;
+    border-radius: 100%;
+    background: #000000;
+    cursor: pointer
+}
